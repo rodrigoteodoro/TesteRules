@@ -1,0 +1,13 @@
+{
+	"name": "process-orders",
+	"rules": [
+		{
+			"when": "always",
+			"then": "calculateItemPrice"
+		 },
+		{
+			 "when": "always",
+			 "then": "calculateTotalPrice"
+		 }
+	]
+}
